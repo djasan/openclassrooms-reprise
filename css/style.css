@@ -49,40 +49,97 @@ div {
 }
 
 
-div ul,a {
-   display: flex;
-   justify-content: space-between;
+div ul,
+a {
+    display: flex;
+    justify-content: space-between;
     color: white;
     text-decoration: none;
     font-size: 11px;
     font-family: var(Alata-Regular);
-font-weight: 400;
+    font-weight: 400;
 
 }
 
-header{
+header {
     background-image: url(./image-hero.jpg);
     background-repeat: no-repeat;
 
-  background-position: center;
-height: 70vh;
-width: 100wh;
+    background-position: center;
+    height: 70vh;
+    width: 100wh;
+}
+
+.parent2 {
+    height: 25vh;
+    display: flex;
+    padding: 16px;
+
+    color: white;
+    font-family: var(JosefinSans-Light);
+}
+
+#cadre {
+    border: 3px solid white;
+    /* Exemple de bordure autour du cadre */
+    padding: 20px;
+    /* Exemple de marge intérieure pour le cadre */
+    height: 25vh;
+    width: 45vw;
+}
+
+.contenucadre {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 30px;
+    font-family: var(JosefinSans-Light);
+}
+
+/* Styles pour chaque élément de texte */
+.Immersive {
+    color: white;
+    /* Exemple de couleur de texte */
+}
+
+.experiences {
+    color: white;
+    /* Exemple de couleur de texte */
+}
+
+.that {
+    color: white;
+    /* Exemple de couleur de texte */
+}
+
+.deliver {
+    color: white;
+    /* Exemple de couleur de texte */
+}
+.Immersive,
+.experiences,
+.that,
+.deliver {
+    color: white;
+    padding: 0;
+    /* Réduisez l'espace entre les éléments ici */
 }
 
 
 
 
 
-
-
-
-footer{
+footer {
     background-color: black;
 }
-footer,h5{
+
+footer,
+h5 {
     color: white;
     font-size: 16px;
     font-family: var(JosefinSans-Light);
     font-weight: 600;
 }
+
 /* Styles pour la barre de navigation */
