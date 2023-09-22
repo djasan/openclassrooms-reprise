@@ -28,7 +28,7 @@ div {
     align-items: center;
     justify-content: space-around;
     box-shadow: 0px 11px 5px -6px #2e2929c2;
-    background-color: #160e0e;
+    background-color: #160e0e00;
     position: fixed;
     width: 100%;
     height: 4vh;
@@ -42,10 +42,10 @@ div {
 
 #enfant1 {
 
-    font-family: var(Alata-Regular);
+    font-family: var(JosefinSans-Light);
     color: white;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 
@@ -55,14 +55,19 @@ div ul,a {
     color: white;
     text-decoration: none;
     font-size: 11px;
-    font-family: var(JosefinSans-Light);
-
+    font-family: var(Alata-Regular);
+font-weight: 400;
 
 }
 
+header{
+    background-image: url(./image-hero.jpg);
+    background-repeat: no-repeat;
 
-
-
+  background-position: center;
+height: 70vh;
+width: 100wh;
+}
 
 
 
@@ -74,5 +79,10 @@ div ul,a {
 footer{
     background-color: black;
 }
-
+footer,h5{
+    color: white;
+    font-size: 16px;
+    font-family: var(JosefinSans-Light);
+    font-weight: 600;
+}
 /* Styles pour la barre de navigation */
