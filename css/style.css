@@ -142,4 +142,29 @@ h5 {
     font-weight: 600;
 }
 
-/* Styles pour la barre de navigation */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espace entre les images */
+  }
+  
+  .image-item {
+    background-color: #f0f0f0; /* Couleur de fond du cadre */
+    padding: 20px; /* Espace interne du cadre */
+    text-align: center;
+  }
+  
+  .image-item img {
+    max-width: 100%; /* Empêche l'image de dépasser la largeur du cadre */
+  }
+  
+  /* Styles pour les titres h3 et les descriptions h4 */
+  .image-item h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .image-item h4 {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
